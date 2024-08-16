@@ -1,0 +1,162 @@
+/* styles.css */
+
+/* Global Styles */
+
+body,
+html {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: rgba(176, 230, 199,0.2);
+    background-image: url();
+    background-repeat: no-repeat;
+    
+    
+    
+
+}
+
+h1, h2 {
+    font-weight: bold;
+    margin-bottom: 50px;
+    /* width: 450px; */
+
+}
+
+/* Home Section */
+#home {
+    background-image: url(https://i.ibb.co/qst7RZC/Indian-Flag.jpg);
+    background-size: cover;
+    color:azure;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    
+}
+
+.display-3 {
+    font-weight: bold;
+    margin-right: 70%;
+}
+
+
+.text-gradient{
+    background: linear-gradient(to right, #FF671F, #FFFFFF, #046A38);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: ;
+}
+
+/* About Section */
+#about,h2 {
+    padding: 10px;
+    /* Custom CSS */
+    
+}
+
+#about {
+    background-image: url(https://media.istockphoto.com/id/1408555963/photo/3d-rendering-podium-of-india-independence-day-229.jpg?s=612x612&w=0&k=20&c=xWezQbdIpyP1arkq1OMVa15Jps_-aQDRLjRjgKnRvjg=);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+   
+    
+}
+
+#AboutID{
+
+}
+
+
+/* Projects Section */
+
+
+
+
+
+#projects .card {
+    border: none;
+    transition: transform 0.3s ease;
+    border: 1px solid black;
+}
+
+#projects .card:hover {
+    transform: translateY(-10px);
+
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px ;
+    background-image:url(https://images.unsplash.com/photo-1596524430615-b46475ddff6e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 660px;
+    height: 560px;
+    position: relative;
+    left: 30%;
+   
+
+    
+    border-radius: 25px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+/* 
+.lead{
+    text-decoration-line: underline;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+
+} */
+
+.btn-lg::backdrop{
+    
+    transition: all 0.5s;
+    background: linear-gradient(to right, #FF671F, #FFFFFF, #046A38);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 10px;
+
+}
+
+#btn-lg{
+    font-size: 70px;
+    margin-left: 63%;
+}
+
+
+#Project1{
+    background-color:rgba(205, 254, 194,0.89);
+}
+
+#Project2{
+    background-color:rgba(186, 228, 229,1);
+}
+
+
+#Project3{
+    background-color:rgba(1, 1, 122,0.3);
+}
+
+
+.animated-text {
+    font-size: 2em; /* Adjust the size of the text */
+    font-weight: bold; /* Make the text bold */
+    animation: fadeIn 6s ease-in-out forwards; /* Apply the animation */
+}
+
+/* Keyframes for the fade-in effect */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px); /* Start slightly above the normal position */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End in the normal position */
+    }
+}
